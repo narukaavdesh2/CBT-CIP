@@ -1,0 +1,234 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main{
+            margin: auto;
+            width: 96%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'poppins', sans-serif;
+            /* line-height: 1rem; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 6vh;
+            width: 100%;
+            background-color: rgb(26, 26, 75);
+            position: fixed;
+            top: 0%;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            font-size: 0.8rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: all 0.5s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(185, 185, 253);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            margin: 5vh 10vh;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 80%;
+        }
+
+        .leftSection {
+            font-size: 1rem;
+
+
+        }
+
+        .leftSection .btn {
+            width: 4.3rem;
+            height: 2.19rem;
+            border: 2px solid white;
+            border-radius: 8px;
+            background-color: #44448e;
+            color: white;
+            font-size: 0.7rem;
+            cursor: pointer;
+            transition: all 0.5s;
+
+        }
+
+        .leftSection .button {
+            padding: 2rem 0;
+        }
+
+
+
+        .leftSection .btn:hover {
+            background-color: rgb(18 18 212);
+        }
+
+        .rightSection {
+            width: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .rightSection img {
+            width: 50%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(157, 90, 220);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(157, 90, 220);
+            ;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+
+            margin: auto;
+            height: 40vmin;
+
+        }
+
+
+        main hr {
+            border: 0;
+            height: 1.2px;
+            margin: 2rem 5vw;
+            background-color: rgb(182, 141, 220);
+
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+
+
+        }
+
+        .secondSection .box {
+            margin: 5rem 0;
+            height: 1px;
+            width: 80vw;
+            background-color: white;
+            display: flex;
+
+        }
+
+        .box .vertical {
+            width: 1px;
+            height: 2rem;
+            background-color: white;
+            margin: 0 5rem;
+        }
+
+        .box .vertical .position-image {
+            width: 2rem;
+            position: relative;
+            top: -3rem;
+            left: -1rem;
+        }
+
+        .box .vertical .position-title {
+            font-size: 0.5rem;
+            width: 5rem;
+            position: relative;
+            top: -1.3rem;
+        }
+
+        .box .vertical .position-desc {
+
+            font-size: 0.2rem;
+            width: 4.5rem;
+            position: relative;
+            top: -1.2rem;;
+            left: 0rem;
+            color: gray;
+        }
+
+        footer {
+            padding: 2rem 1rem;
+            background-color: #1b1b36;
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 0 0.5rem;
+            /* height: 40vh; */
+            justify-content: space-evenly;
+        }
+
+        .footer  .horizontal-line{
+            height: 1px;
+            width: 90vw;
+            background-color: white;
+            margin: 2.5vw 5vw;
+            
+        }
+
+        .footer img{
+            width: 1.5rem;
+            margin: 1.5vw 0;
+            transition: all 0.5s;
+        }
+
+        .footer img:hover{
+            width: 2rem;
+
+        }
+
+        .footer>div {
+            width: 250px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .dev-rights {
+            color: gray;
+            text-align: center;
+            padding: 12px 0;
+        }
+    
