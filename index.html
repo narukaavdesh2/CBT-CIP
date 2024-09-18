@@ -1,146 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avdesh Naruka Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
 </head>
-
 <body>
+<div class="container">
+    <form>
+    <input type="text" id="task" placeholder="Type Task Detail" required>
+    <textarea name="" id="taskDetail" placeholder="Type of Task in Detail" required></textarea>
+    <button id="add" type="submit">Enter</button>
 
-    <header>
-        <nav >
-            <div class="left">Avdesh's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#work-exp">Projects</a></li>
-                    <li><a href="#div-footer">Contact Me</a></li>
-                </ul>
-            </div>
+    </form>
 
-        </nav>
-    </header>
-
-    <main>
-        <section id="home" class="firstSection">
-            <div class="leftSection">
-                Hi, My Name is <span class="purple">Avdesh Singh</span>
-                <div>and I am a Passionate</div>
-
-                <span id="element"></span>
-                <div class="button" >
-                    <button id="resumeBtn" class="btn" role="link">Download Resume</button>
-                    <button id="githubBtn" class="btn" role="link">GitHub Link</button>
-                </div>
-
-            </div>
-            <div class="rightSection">
-                <img src="bg.png" alt="">
-            </div>
-        </section>
-        <hr>
-        <section id="work-exp" class="secondSection">
-            <span class="text-gray">What I have Done so far</span>
-            <h1>Work Experience</h1>
-            <div class="box">
-                <div class="vertical">
-                    <img class="position-image" src="weather.png" alt="">
-                    <div class="position-title">
-                        Weather-App 
-                    </div>
-                    <div class="position-desc">
-                        IStay ahead of the weather with our intuitive Weather App, designed to provide you with real-time weather updates and forecasts. Featuring a sleek and user-friendly interface, this app offers accurate weather information for your current location and any place around the globe.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="position-image" src="stopwatch.png" alt="">
-                    <div class="position-title">
-                        Stop-Watch
-                    </div>
-                    <div class="position-desc">
-                        Our stopwatch application provides a simple yet effective tool for measuring elapsed time. Featuring a clean and intuitive interface, it allows users to start, stop, and reset the timer with ease.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="position-image" src="task-Generator.png" alt="">
-                    <div class="position-title">
-                        Task-Generator
-                    </div>
-                    <div class="position-desc">
-                        The task generator application developed by Avdesh Singh is a versatile tool designed to streamline task management and boost productivity. With an easy-to-use interface, users can quickly create, organize, and prioritize tasks.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="position-image" src="horo-Color.png" alt="">
-                    <div class="position-title">
-                        Horo-Color
-                    </div>
-                    <div class="position-desc">
-                        Discover the mysteries of your zodiac sign with our intuitive Horoscope App. This app offers comprehensive astrological insights, including detailed profiles for each zodiac sign, daily and weekly horoscopes, and personalized recommendations based on your sign.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="position-image" src="para-Generator.png" alt="">
-                    <div class="position-title">
-                        Para-Generator
-                    </div>
-                    <div class="position-desc">
-                        Our Paragraph Generator Application is designed to streamline the process of creating engaging and coherent text. Whether you need content for creative writing, marketing materials, or academic purposes, this tool generates well-structured paragraphs based on your input criteria.
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer id="div-footer">
-        <div class="footer">
-            <div class="horizontal-line">
-                
-            </div>
-            <div class="footer-second">
-                <img id="linkedinBtn" src="in.png" alt="linkedIn">
-            </div>
-            <div class="footer-third">
-                <img id="youtubeBtn" src="yt.png" alt="youtube">
-            </div>
-            <div class="footer-forth">
-                <img id="instaBtn" src="insta.png" alt="insta">
-            </div>
-            <div class="footer-forth">
-                <img id="fbBtn" src="fb.png" alt="fb">
-            </div>
-            <div class="horizontal-line">
-                
-            </div>
-
+    
+    <!-- <div class="para">
+        <div class="inner">
+            <p>Title</p>
+            <span>Detail Description</span>
         </div>
-
-        <div class="dev-rights">
-            Copyrights &copy to Avdesh
-        </div>
-    </footer>
+        <button id="sub">-</button>
+    </div> -->
 
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <!-- Setup and start animation! -->
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Video Editor', 'Podcaster'],
-            typeSpeed: 50,
-        });
-    </script>
-
-    <script src="port.js"></script>
-
+</div>
+    
 </body>
-
+<script src="./index.js"></script>
 </html>
